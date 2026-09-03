@@ -1,6 +1,6 @@
 # Sovereign Codex Installer
 
-Standalone installer for the Sovereign AI Framework's local Codex + Ollama workflow.
+Standalone Windows installer for the Sovereign AI Demonstrator's local Codex + Ollama workflow. The source repository remains `sovereign-ai-framework`; that slug is an implementation identifier rather than a second product name.
 
 ## Current target
 
@@ -12,6 +12,23 @@ Standalone installer for the Sovereign AI Framework's local Codex + Ollama workf
 - OpenAI Codex CLI
 
 The installer clones or updates `GremlinNavi/sovereign-ai-framework`, configures local Ollama inference, creates the Python environment, validates the framework, and creates local launchers.
+
+## Engineering status
+
+Implemented:
+
+- Windows 11 / PowerShell 5.1+ bootstrap path;
+- dependency discovery before installation;
+- local Ollama configuration with remote inference disabled by default;
+- framework validation and health checks before completion; and
+- generated launchers for OSWAP, the Sovereign AI Demonstrator, and local Codex use.
+
+Current boundaries:
+
+- this is a convenience/bootstrap component, not the canonical OSWAP runtime;
+- SteamOS/Linux installation remains planned rather than implemented;
+- inference runtimes and model weights remain external dependencies; and
+- consequential repository publication remains in OSWAP Twin Transport rather than this installer.
 
 ## Install
 
