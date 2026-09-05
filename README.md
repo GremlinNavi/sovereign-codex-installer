@@ -1,6 +1,6 @@
-# Sovereign Codex Installer
+# OSWAP Codex Installer
 
-Standalone Windows installer for the Sovereign AI Demonstrator's local Codex + Ollama workflow. The source repository remains `sovereign-ai-framework`; that slug is an implementation identifier rather than a second product name.
+Standalone Windows installer for the OSWAP local Codex + Ollama workflow. The source repository remains `sovereign-ai-framework`; that slug is an implementation identifier rather than the installer product name.
 
 ## Current target
 
@@ -37,6 +37,8 @@ Review the script before execution, then run:
 ```powershell
 .\Install-SovereignCodex.ps1
 ```
+
+The script filename is retained for compatibility with the current implementation; the repository and component identity are `oswap-codex-installer` / OSWAP Codex Installer.
 
 ## Portability
 
